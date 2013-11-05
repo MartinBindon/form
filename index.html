@@ -10,23 +10,42 @@
   <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
   <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
   <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 </head>
 <body>
   <!--<script src="js/scripts.js"></script>-->
   <div data-role="page" data-theme="b" id="page1">
    <!-- Main content starts here -->
     <div data-role="header" id="hdrMain" name="hdrMain" data-nobackbtn="true">
-      Form testing data input.
+      <h1>Form testing data input.</h1>
     </div>
     <div data-role="content" id="contentMain" name="contentMain">
+
       <form id="form1">
         <div id="fName" data-role="fieldcontain">
           <label for="fName" id="fNameLabel" name="fNameLabel">First Name*</label>
           <input id="fName" name="fName_r" type="text" />
         </div>
+        <div id="lName" data-role="fieldcontain">
+          <label for="lName" id="lNameLabel" name="lNameLabel">Last Name*</label>
+          <input id="lName" name="lName_r" type="text" />
+        </div>
+        <div id="emailDiv" data-role="fieldcontain">
+          <label for="email">Email*</label>   
+          <input id="email" name="email_r" type="text" /> <!-- Can this be changed to email? -->
+        </div>
+        <div id="phoneDiv" data-role="fieldcontain">
+          <label for="phone">Phone</label>    
+          <input id="phone" name="phone" type="text"/>
+        </div>
+        <div id="dateOfBirth" data-role="fieldcontain">
+          <label for="dateOfBirth">Phone</label>    
+          <input id="dateOfBirth" name="dateOfBirth" type="text"/>  <!-- can this be changed to date? -->
+        </div>
+
       </form>
+
       
     </div>
     
