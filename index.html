@@ -33,20 +33,21 @@
         </div>
         <div id="emailDiv" data-role="fieldcontain">
           <label for="email">Email*</label>   
-          <input id="email" name="email_r" type="text" /> <!-- Can this be changed to email? -->
+          <input id="email" name="email_r" type="email" /> <!-- Can this be changed to email? -->
         </div>
         <div id="phoneDiv" data-role="fieldcontain">
           <label for="phone">Phone</label>    
-          <input id="phone" name="phone" type="text"/>
+          <input id="phone" data-clear-btn="true" name="phone" type="text"/>
         </div>
         <div id="dateOfBirth" data-role="fieldcontain">
           <label for="dateOfBirth">Date of Birth</label>    
-          <input id="dateOfBirth" name="dateOfBirth" type="text"/>  <!-- can this be changed to date? -->
+          <input id="dateOfBirth" name="dateOfBirth" type="date"/>  <!-- can this be changed to date? -->
         </div>
         <div id="password" data-role="fieldcontain">
           <label for="password">Password</label>    
-          <input id="password" name="password" type="text"/>  <!-- can this be changed to date? -->
+          <input id="password" data-clear-btn="true" name="password" autocomplete="off" type="password"/>  <!-- can this be changed to date? -->
         </div>
+
 
       </form>
 
